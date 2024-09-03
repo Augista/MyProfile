@@ -7,7 +7,7 @@ import {Link} from 'react-scroll';
 const Hero = () => {
   return (
     <section id="home">
-      <div className="flex flex-col items-center justify-center py-16 my-10 text-center animate-fadeIn animation-delay-2 sm:py-32 md:py-48 md:flex-row md:space-x-4 md:text-left">
+      <div className="flex flex-col items-center dark:text-white text-slate-900 justify-center py-16 my-10 text-center animate-fadeIn animation-delay-2 sm:py-32 md:py-48 md:flex-row md:space-x-4 md:text-left">
         <div className="md:mt-2 md:w-1/2">
           <Image
             src="/headshot.png"
@@ -27,10 +27,10 @@ const Hero = () => {
             </span>
             based in Surabaya, Indonesia.  
           </p>
-          <p className="mt-1 mb-1 text-lg text-teal-300">
+          <p className="mt-1 mb-1 text-lg dark:text-teal-300 text-teal-600">
             Jl. Kapas Baru 1 No. 92 Surabaya 
           </p>
-          <p className="mt-2 mb-6 text-lg text-gray-300">
+          <p className="mt-2 mb-6 text-lg dark:text-gray-300 text-black">
             Email: augistapradana11@gmail.com
           </p>
           <a

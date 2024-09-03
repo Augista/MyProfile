@@ -33,13 +33,13 @@ export default function Navbar() {
   const pathname = usePathname()
   const [navbar, setNavbar] = useState(false)
   return (
-    <header className="fixed top-0 z-50 w-full px-4 mx-auto bg-white shadow sm:px-20 dark:bg-stone-900 dark:border-b dark:border-stone-600">
+    <header className="fixed top-0 z-50 w-full px-4 mx-auto bg-white shadow sm:px-20 dark:text-gray-100 dark:bg-stone-900 dark:border-b dark:border-stone-600">
       <div className="justify-between md:items-center md:flex">
         <div>
           <div className="flex items-center justify-between py-3 md:py-5 md:block">
             <Link to="home">
               <div className="container flex items-center space-x-2">
-                <h2 className="text-2xl font-bold">Augista</h2>
+                <h2 className="text-2xl font-bold dark:text-gray-200 text-slate-900">Augista</h2>
               </div>
             </Link>
             <div className="md:hidden">
@@ -89,7 +89,7 @@ export default function Navbar() {
               ) : (
                 <button
                   onClick={() => setTheme("dark")}
-                  className="p-2 bg-slate-100 rounded-xl"
+                  className="p-2 bg-slate-900 rounded-xl"
                 >
                   <RiMoonFill size={25} />
                 </button>

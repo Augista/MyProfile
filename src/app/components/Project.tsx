@@ -35,12 +35,12 @@ const projects = [
 const Projects = () => {
   return (
     <section id="projects">
-      <h1 className="my-10 text-4xl font-bold text-center">
+      <h1 className="my-10 text-4xl font-bold text-center dark:text-white text-slate-900">
         Projects
         <hr className="w-6 h-1 mx-auto my-4 bg-teal-500 border-0 rounded"></hr>
       </h1>
 
-      <div className="flex flex-col space-y-28">
+      <div className="flex flex-col space-y-28 dark:text-white text-slate-900">
         {projects.map((project, idx) => {
           return (
             <div key={idx}>
