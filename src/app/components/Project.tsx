@@ -14,19 +14,19 @@ const projects = [
     link: "https://charing-cub-web.vercel.app/",
   },
   {
-    name: "Qr Code generator",
+    name: "Schematics 2024",
     description:
-      "Qr code generator is a web app that generates an QR code from link or sentence so user can easily to scan it.",
-    image: "/qrcodegen.png",
-    github: "https://github.com/Augista/qrcode-generator",
-    link: "https://github.com/Augista/qrcode-generator",
+      "Big event of Departement Informatics Sepuluh Nopember Institute of Technology",
+    image: "/sch.png",
+    github: "https://schematics-its.com/",
+    link: "https://schematics-its.com/",
   },
   {
-    name: "SimpleDictionary with example Verse",
-    description: "Simple Dictionary for english noun/verb with example verse",
-    image: "/dictionary.png",
+    name: "Mabacup ITS 2024",
+    description: "Competition for new students Sepuluh Nopember Institute of Technology",
+    image: "/mabacup.png",
     github: "https://github.com/Augista/simple-Dictionary",
-    link: "https://github.com/Augista/simple-Dictionary",
+    link: "https://mabacup-its.com/",
   },
   
 

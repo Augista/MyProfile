@@ -12,6 +12,7 @@ const skills = [
   { skill: "Tailwind CSS" },
   { skill: "Git" },
   { skill: "GitHub" },
+  { skill: "Project Manager" },
 ]
 
 const About = () => {
