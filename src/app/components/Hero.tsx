@@ -27,9 +27,6 @@ const Hero = () => {
             </span>
             based in Surabaya, Indonesia.  
           </p>
-          <p className="mt-1 mb-1 text-lg dark:text-teal-300 text-teal-600">
-            Jl. Kapas Baru 1 No. 92 Surabaya 
-          </p>
           <p className="mt-2 mb-6 text-lg dark:text-gray-300 text-black">
             Email: augistapradana11@gmail.com
           </p>
